@@ -1,2 +1,2 @@
-# tyleransom.github.io
-Repository for Tyler Ransom's academic research website.
+# liyixintsa.github.io
+This is the homepage of LI Yixin.
