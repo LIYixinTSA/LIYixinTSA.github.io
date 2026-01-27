@@ -85,10 +85,10 @@
       /* --- 新增：电影/旅程列表展开收起样式 --- */
       details summary {
         cursor: pointer;
-        color: #4183c4; /* 匹配 GitHub Light 链接蓝色 */
+        color: #f8f8f8; /* 匹配 GitHub Light 链接蓝色 */
         margin-top: 10px;
         list-style: none;
-        transition: color 0.2s ease; /* 平滑过渡效果 */
+        transition: color 0.3s ease; /* 平滑过渡效果 */
       }
       details summary::-webkit-details-marker {
         display: none; /* 隐藏 Chrome 默认箭头 */
@@ -103,11 +103,11 @@
       .show-less-btn {
         display: none;
         text-align: right;
-        color: #4183c4;
+        color: #f8f8f8;
         cursor: pointer;
         margin-top: 10px;
         font-size: 0.9em;
-        transition: color 0.2s ease;
+        transition: color 0.3s ease;
         user-select: none;
       }
       details[open] .show-less-btn {
@@ -117,8 +117,7 @@
       /* 悬停变色：匹配你原文件的链接交互效果 */
       details summary:hover, 
       .show-less-btn:hover {
-        color: #1eafec; /* 悬停时变为更亮的蓝色，或根据你的 styles.css 自动调整 */
-        text-decoration: underline;
+        color: #777; /* 悬停时变为更亮的蓝色，或根据你的 styles.css 自动调整 */
       }
     
     </style>
