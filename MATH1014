@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yixin LI</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-29643011-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- New GA4 tracking code, see https://support.google.com/analytics/answer/10271001#analyticsjs-enable-basic --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNJD50R0Z7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GNJD50R0Z7');
+    </script>
+
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+    <link rel="stylesheet" href="assets/css/academicons.css"/>
+
+    <style>
+      button.accordion {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.3s;
+      background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+      background-color: #f8f8f8;
+      }
+      button.accordion:after {
+      content: " [+] ";
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
+
+      button.accordion.active:after {
+      content: " [\2212] ";
+      }
+      div.panel {
+      padding: 0 20px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      }
+      div.panel.show {
+      display: block !important;
+      }
+      .social-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Yixin LI</h1>
+        <p>PhD student<br>Department of Mathematics<br>The Hong Kong University of Science and Technology</p>
+
+        <h3><a href="https://liyixintsa.github.io/MATH1014-24S.html">2024</a></h3>
+        <h3><a href="https://liyixintsa.github.io/index.html">Back</a></h3> 
+
+    <!--
+    <h3><a href="https://tyleransom.github.io/">Home</a></h3>
+        <h3><a href="https://tyleransom.github.io/research.html">Research</a></h3>
+    <h3><a href="https://tyleransom.github.io/research/CV.pdf">CV</a></h3>  
+        <h3><a href="https://tyleransom.github.io/code.html">Code</a></h3> 
+        <h3><a href="https://tyleransom.github.io/teaching.html">Teaching</a></h3> 
+        <h3><a href="https://tyleransom.github.io/personal.html">Personal</a></h3>
+    -->
+    <br>
+        <div class="social-row">
+          <a href="mailto:yliqh@connect.ust.hk" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
+          <a href="https://github.com/LIYixinTSA" target="_blank"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
+          <br>
+        </div>
+        <be>
+
+    <!--<br>Department of Mathematics<br>The Hong Kong University of Science and Technology<br>Clear Water Bay, Kowloon<br>Hong Kong, China--></p>
+    <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </header>
+      <section>
+      <h2>MATH1014 Calculus II</h2>
+      <h3>Spring, 2025</h3>
+      <h4><a href="https://canvas.ust.hk/courses/62535/pages/l2-l5-yueping-wu" target="_blank">Course Homepage</a></h4> 
+      <hr>
+      <h4><a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/ETpcGt4xZbFGje23IuAK2jsBZqC6kzGXHLWI2NGEjyNcgA?e=OvlvWL" target="_blank">Arrangements of Tutorials</a></h4> 
+      <h4>Tutorial notes are shared through OneDrive and an HKUST account is required to view and download. 
+        <a href="https://hkustconnect-my.sharepoint.com/:f:/g/personal/yliqh_connect_ust_hk/EnOTEXfp6nJChbPJ8B9ha0wBUjHAU1hDgR8mdj7ziCnddg?e=7m7Z9P"  target="_blank">Download All</a></h4> 
+      
+      
+      <h3>Tutorial 1: Review of Integrals and Areas Between Curves</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EXjll8Wovc1CiA_VZ0tLd_kBjutpeSXa50Ua1MhNcVOB9g?e=SgG3Pq"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EY3uKq4ylQ9CnvMNWX2_m_sBwGHylV0CSAEyz7dcvin4hw?e=8Nqcud"  target="_blank">Handout</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EXrggvPgK51CjLsjQ6XY5IkBauzoDf9Q69vbZ4r8Y1YIZg?e=QDIben"  target="_blank">Notes_in_Tutorial</a> 
+        </h4> 
+      
+        <h3>Tutorial 2: Areas Between Curves and Volumes</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EWAMNyW6gTpJjhQf8sk01UEBNAMA_DmQ4IaBFxlraqY6oQ?e=xlUTyO"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EU2pTMDmsfJHoUCRS5-HjWQBsFY4HIoYrSdBLHg4G3ll_A?e=XiRWMx"  target="_blank">Handout</a>  &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EX8pVCs5fwNHohkOHy7mrzUBu--VoM47zGTOy83p7hZKPA?e=scFe2t"  target="_blank">Notes_in_Tutorial</a>
+        </h4> 
+
+        <h3>Tutorial 3: Volumes by Cylindrical Shells and Work</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EV2OHfFBmJtIgcEkO2uACccBvGa4Pk52ZRMxo-OWA1v4QA?e=h8PCbO"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EQDFroOdbPxKlQ5eH5_lFtEB0jFKg9KEQA5QvNOsE-fpAQ?e=OKIyki"  target="_blank">Handout</a> &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/ERejqsF-_DxOjJKDunfIG4kBdwAZmPtvhXsCWc_E5aFs0A?e=LmegVu"  target="_blank">Notes_in_Tutorial</a>
+        </h4> 
+
+        <h3>Tutorial 4: Average Value of a Function, Arc Length, Area of a Surface of Revolution, and Integration by Parts</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EZQ3V9rtQHxOhqlvVnc4kAUBoEemnrQkStqojv-AI_yZLQ?e=kyAOuO"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EfAhkWoP-I9GkzsJeUNCVLgBvT-bP1skShzag0LWWAccAA?e=4P3vEj"  target="_blank">Handout</a> &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EVTTv5a8VkpEvXe738xtUMgByslEX7zEOLEadfCb4QZwSQ?e=O17UGN"  target="_blank">Notes_in_Tutorial</a>
+        </h4> 
+        
+        <h3>Tutorial 5: Integration by Parts, Trigonometric Integrals, and Trigonometric Substitution</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EScosq9iFchAu7Rl2Lu2Z7sBVhsh-WtAm9ZrtqC2CACvUQ?e=HmIfRk"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/ETAiiRoUuiBBk1-NQ_RvTYwBJPZTHyJBhxmT7wpWn8yVYg?e=crccbs"  target="_blank">Handout</a> &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EWhzTHLSyNZBlbxSQHpTGnMBVCeKXvp4fLPyoNnQqZai9A?e=hof2oD"  target="_blank">Notes_in_Tutorial</a>
+        </h4>
+
+        
+        <h3>Tutorial 6: Integration of Rational Functions by Partial Fractions, Strategy for Integration, and Approximate Integration</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EQepZnURasFDhgBwjz3ybzEB6GXfsuaNN8mH4ybsCK29vA?e=JDQiU4"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/Ecgdm3wdax5PgaFUl-SfZx4BErvgTcTnsHJtBdxB_t-1PQ?e=KRUCtf"  target="_blank">Handout</a> &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/ERpDRZYpifNLmEFjD_RlYkYBg1uVT3XsFXiLvDz37rfefg?e=fE1u6s"  target="_blank">Notes_in_Tutorial</a> &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/Ea8-HKgktNlBnJnALsOXdrYB2Dpx7rd-c9Y5E8dCmmhrug?e=3owfgG"  target="_blank">Codes_in_Python</a>
+        </h4>
+
+        <h3>Tutorial 7: Improper Integrals and Polar Coordinates</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EVqXVLOLTy1GhNhQv2GBrEEBnbXjtHdycW4zA6y1u1atXw?e=GB9SkB"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/ESMTdKxreUxMqR0LD0Qa0_4BehZkJDHwwrq9hmYu_rNbqQ?e=VyTB7j"  target="_blank">Handout</a> &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EXio7d5EEXFIuYHn_A-lD-wB30IX_O4w0nrY19N7FX4JpQ?e=uq7G1I"  target="_blank">Notes_in_Tutorial</a>
+        </h4>
+
+        <h3>Tutorial 8: Calculus in Polar Coordinates and Sequences</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EcwAkxapKU5ClQoui51XFzUBMOEtUXNvg4Bja1Teq8ZVig?e=pLilS3"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EU6wUfY1Ve5Mjcwk9fWZdAkBOzRIm20xdC994yQtxK5YLw?e=so0Wrz"  target="_blank">Handout</a> &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/Eb_j2Cx8pkFMsYOgQUvPax8BXJ4jJHkYq6XjOS843H_YFg?e=g03dvH"  target="_blank">Notes_in_Tutorial</a>
+        </h4>
+
+        <h3>Tutorial 9: Series, The Integral Test and Estimates of Sums</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EUpSDhonzu9Dmk7tLgxFWloBW2VFA-CHH9xeaWEI-7aSZA?e=8wz0lG"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/ES1Cy9gqbttEsZ6eoTfdT8IBGtJ9_ze2JIbSa8GgTOgfQA?e=olzcAq"  target="_blank">Handout</a> &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EQdjUmS7ENhNqgqDo-2Z1RYBJJMa3H3F89Mfg1IByiYZTw?e=PViklJ"  target="_blank">Notes_in_Tutorial</a>
+        </h4>
+
+        <h3>Tutorial 10: Strategy for Testing Series and Power Series</h3>
+        <h4>
+          <a href="https://hkustconnect-my.sharepoint.com/:p:/g/personal/yliqh_connect_ust_hk/EeDHfr4JTAxKvU2vLtr1wKcBHbE6wOyuz3gGp5KfMdulMg?e=uDdpZ5"  target="_blank">Slides</a>  &nbsp; &nbsp; 
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EfKTaqvi-GlIsuggFvFuKdUBRCaelA7WVCUdCmCpTJ6xMg?e=pA6rEd"  target="_blank">Handout</a> &nbsp; &nbsp;  
+          <a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/Ea0z4eUOV7ZIsES-5N6nPXsB1ZyZBv2rSA9GByHB9Ela9g?e=Fh4XlA"  target="_blank">Notes_in_Tutorial</a>
+        </h4>
+      
+        <hr />
+        <h3>Some Statistics</h3>
+        <h4> Number of Students: 18 11 12 12 8 * 8 0 2 3 5</h4>
+        <h4> Number of Email Messages by Students: 7</h4>
+        <h4><a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/EfHC3Bahm9RCs02Nx5pDg1IBrUa-KiTmSOCAslBto87MwA?e=zSbbXz"  target="_blank">Student Feedback Questionnaire</a></h4> 
+        
+      </section>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
