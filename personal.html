@@ -213,6 +213,16 @@
           <li>2023-11-11: Lion Rock 狮子山
           <li>2022-02-06: Violet Hill and Repulse Bay 紫罗兰山及浅水湾
           <li>2022-01-22: The Peak (from HKU) 太平山</a>
+
+          <script>
+            document.querySelector('details').addEventListener('click', function(e) {
+              // 检查点击的是否是伪元素区域（这里简单处理：点击 details 底部区域收起）
+              if (this.open && e.offsetY > this.offsetHeight - 30) {
+                this.open = false;
+                window.scrollTo({top: this.offsetTop - 200, behavior: 'smooth'}); // 可选：收起时自动回滚
+              }
+            });
+          </script>
           </details>
      </li>
 
