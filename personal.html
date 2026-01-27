@@ -99,25 +99,38 @@
         text-decoration: underline;
       }
 
-      /* 当 details 打开时：在末尾生成 "Show less" */
-      details[open]::after {
-        content: "收起 (Show less)";
-        display: block;
+      /* 基础列表样式 */
+      li { margin-bottom: 8px; }
+    
+      /* 展开时隐藏 "Show more" */
+      details[open] summary {
+        display: none;
+      }
+    
+      /* 默认隐藏 "Show less" 按钮 */
+      .show-less-btn {
+        display: none;
         text-align: right;
         color: #007bff;
         cursor: pointer;
         margin-top: 10px;
         font-size: 0.9em;
-      }
-    
-      /* 交互样式 */
-      summary, details[open]::after {
-        cursor: pointer;
-        color: #007bff;
         user-select: none;
       }
-      
-      summary:hover, details[open]::after:hover {
+    
+      /* 当 details 展开时，显示 "Show less" */
+      details[open] .show-less-btn {
+        display: block;
+      }
+    
+      summary {
+        cursor: pointer;
+        color: #007bff;
+        margin-top: 10px;
+        list-style: none; /* 移除默认箭头 */
+      }
+    
+      summary:hover, .show-less-btn:hover {
         text-decoration: underline;
       }
     </style>
