@@ -81,6 +81,23 @@
         flex-wrap: wrap;
         justify-content: space-between;
       }
+      /* 当 details 处于打开状态时，隐藏 summary */
+      details[open] summary {
+        display: none;
+      }
+      
+      /* 调整 summary 的样式，使其更像一个链接或按钮 */
+      summary {
+        cursor: pointer;
+        color: #007bff;
+        margin-top: 10px;
+        outline: none;
+        user-select: none;
+      }
+      
+      summary:hover {
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
