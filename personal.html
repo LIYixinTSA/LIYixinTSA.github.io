@@ -94,10 +94,6 @@
         outline: none;
         user-select: none;
       }
-      
-      summary:hover {
-        text-decoration: underline;
-      }
     
       /* 展开时隐藏 "Show more" */
       details[open] summary {
@@ -127,9 +123,6 @@
         list-style: none; /* 移除默认箭头 */
       }
     
-      summary:hover, .show-less-btn:hover {
-        text-decoration: underline;
-      }
     </style>
   </head>
   <body>
@@ -198,7 +191,7 @@
           <li>2025-12-21: <a href="photos/20251221-McLehose_trail_Section_2.JPG" target="_blank">MacLehose Trail Section 2 (M030-048) 麦理浩径第二段</a>
           <li>2025-11-22: <a href="https://www.hillmanblog.com/project/en-lion-rock/" target="_blank">Lion Rock Country Park 狮子山</a>
         
-          <details>
+          <details id="hiking-list">
           <summary style="cursor: pointer; color: #007bff; list-style: none; margin-top: 10px;">Show more...</summary>
 
           <li>2025-03-02: Cape D'Aguilar 鹤咀 </a>
@@ -224,15 +217,7 @@
           <li>2022-02-06: Violet Hill and Repulse Bay 紫罗兰山及浅水湾
           <li>2022-01-22: The Peak (from HKU) 太平山</a>
 
-          <script>
-            document.querySelector('details').addEventListener('click', function(e) {
-              // 检查点击的是否是伪元素区域（这里简单处理：点击 details 底部区域收起）
-              if (this.open && e.offsetY > this.offsetHeight - 30) {
-                this.open = false;
-                window.scrollTo({top: this.offsetTop - 200, behavior: 'smooth'}); // 可选：收起时自动回滚
-              }
-            });
-          </script>
+          <div class="show-less-btn" onclick="document.getElementById('hiking-list').open = false;">Show less</div>
           </details>
      </li>
 
