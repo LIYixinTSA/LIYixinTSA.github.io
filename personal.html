@@ -82,34 +82,43 @@
         justify-content: space-between;
       }
       
-      /* --- 新增：电影/旅程列表展开收起样式 --- */
+      /* 修改后的 details/summary 样式，完全匹配你的 style.css */
       details summary {
         cursor: pointer;
+        color: #39c;       /* 匹配 a { color: #39c; } */
         margin-top: 10px;
         list-style: none;
-        transition: color 0.3s ease; /* 平滑过渡效果 */
-      }
-      details summary::-webkit-details-marker {
-        display: none; /* 隐藏 Chrome 默认箭头 */
+        transition: color 0.1s ease-in-out; /* 快速平滑过渡 */
       }
       
-      /* 当展开时隐藏 Show more */
+      details summary::-webkit-details-marker {
+        display: none;    /* 隐藏 Chrome 默认箭头 */
+      }
+      
+      /* 展开时隐藏 Show more */
       details[open] summary {
         display: none;
       }
-
+      
       /* Show less 按钮样式 */
       .show-less-btn {
         display: none;
         text-align: right;
+        color: #39c;       /* 匹配 a { color: #39c; } */
         cursor: pointer;
         margin-top: 10px;
-        font-size: 0.9em;
-        transition: color 0.3s ease;
+        font-size: 11px;   /* 匹配你 css 中的 small 字体大小 */
         user-select: none;
       }
+      
       details[open] .show-less-btn {
         display: block;
+      }
+      
+      /* 鼠标晃到字附近时的颜色变化 */
+      details summary:hover, 
+      .show-less-btn:hover {
+        color: #069;       /* 核心匹配：a:hover { color: #069; } */
       }
     
     </style>
