@@ -116,27 +116,44 @@
         <p> A presentation given in LANG5005 on 26/03/2024. [<a href="https://hkustconnect-my.sharepoint.com/:v:/g/personal/yliqh_connect_ust_hk/EWIkUKS7S01Kmx0HEEL0R6MBJVU4ZJ20uHQagPrnjmdM9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vnF0TM">Video</a>] [<a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/ERCTAsciVSNDmEI6G0RSYWcBL-GfqsqcHNk8wI79brTh0A?e=eV0a29">Slides</a>]</p>
     <hr>
     <h3>Conference Attended</h3>
-<style>
-  
-  /* 隐藏 summary 默认的三角形图标，且不显示任何额外符号 */
-  details > summary {
-    list-style: none;
-    cursor: pointer; /* 鼠标放上去会变成小手，提示可点击 */
-  }
-  /* 针对 WebKit 内核浏览器（如 Chrome, Safari）隐藏默认图标 */
-  details > summary::-webkit-details-marker {
-    display: none;
-  }
-
-  /* 时间和地点的样式 */
-  .conf-info {
-    margin-top: 4px;
-    font-style: italic;
-    color: #555;
-    line-height: 1.5;
-  }
-  
-</style>
+    <style>
+      
+      /* 隐藏 summary 默认的图标，并优化点击体验 */
+      details > summary {
+        list-style: none;
+        cursor: pointer; /* 鼠标悬停显示小手 */
+        outline: none; /* 移除点击时默认的蓝色边框 */
+        user-select: none; /* 防止点击过快导致文字被选中而闪烁 */
+      }
+      details > summary::-webkit-details-marker {
+        display: none;
+      }
+      
+      /* 时间和地点的基础样式 */
+      .conf-info {
+        margin-top: 4px;
+        font-style: italic;
+        color: #555;
+        line-height: 1.5;
+      }
+    
+      /* 当 details 展开时，给内容添加平滑的下拉渐现动画 */
+      details[open] .conf-info {
+        animation: slideDownFade 0.3s ease-out;
+      }
+    
+      /* 定义动画帧 */
+      @keyframes slideDownFade {
+        0% {
+          opacity: 0;
+          transform: translateY(-8px); /* 初始位置稍微偏上 */
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0); /* 回到正常位置 */
+        }
+      }
+    </style>
     <ul class="conf-list">
         <li>
         <details>
