@@ -116,7 +116,7 @@
         <p> A presentation given in LANG5005 on 26/03/2024. [<a href="https://hkustconnect-my.sharepoint.com/:v:/g/personal/yliqh_connect_ust_hk/EWIkUKS7S01Kmx0HEEL0R6MBJVU4ZJ20uHQagPrnjmdM9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vnF0TM">Video</a>] [<a href="https://hkustconnect-my.sharepoint.com/:b:/g/personal/yliqh_connect_ust_hk/ERCTAsciVSNDmEI6G0RSYWcBL-GfqsqcHNk8wI79brTh0A?e=eV0a29">Slides</a>]</p>
     <hr>
     <h3>Conference Attended</h3>
-    <style>
+<style>
   /* 移除列表默认的圆点 */
   ul.conf-list {
     list-style-type: none; 
@@ -126,33 +126,18 @@
     margin-bottom: 12px;
   }
   
-  /* 隐藏 summary 默认的三角形图标 */
+  /* 隐藏 summary 默认的三角形图标，且不显示任何额外符号 */
   details > summary {
     list-style: none;
-    cursor: pointer;
-    font-weight: bold;
+    cursor: pointer; /* 鼠标放上去会变成小手，提示可点击 */
   }
+  /* 针对 WebKit 内核浏览器（如 Chrome, Safari）隐藏默认图标 */
   details > summary::-webkit-details-marker {
     display: none;
   }
   
-  /* 在未展开的标题前添加加号 ➕ */
-  details > summary::before {
-    content: "+ ";
-    color: #007bff; /* 加号颜色，可自行修改 */
-    font-weight: bold;
-    display: inline-block;
-    width: 1.2em;
-  }
-  
-  /* 在展开的标题前添加减号 ➖ */
-  details[open] > summary::before {
-    content: "- ";
-  }
-  
   /* 时间和地点的样式 */
   .conf-info {
-    margin-left: 1.2em;
     margin-top: 4px;
     font-style: italic;
     color: #555;
